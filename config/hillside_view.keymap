@@ -85,9 +85,9 @@
       label = "DEFAULT";
       bindings = <
       // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮                                      ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬────────────╮
-          &ht GRAVE TAB    &ht N1 Q     &ht N2 W      &ht N3 E      &ht N4 R      &ht N5 T                                              &ht N6 Y     &ht N7 U      &ht N8 I      &ht N9 O      &ht N0 P     &kp PIPE    
+             &kp TAB       &kp N1         &kp N2        &kp N3        &kp N4       &kp N5                                                &kp N6        &kp N7        &kp N8        &kp N9       &kp N0       &kp PIPE    
       // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤                                      ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼────────────┤
-           &kp ESC          &kp A         &kp S         &kp D         &kp F        &kp G                                                 &kp H         &kp J         &kp K         &kp L        &kp SEMI     &kp SQT    
+             &kp ESC       &kp A          &kp S         &kp D         &kp F        &kp G                                                 &kp H         &kp J         &kp K         &kp L        &kp SEMI     &kp SQT    
       // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤  ╭─────────────╮     ╭─────────────╮ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼────────────┤
            &sk LSHFT   &mt_sk LCTRL Z  &mt_sk LALT X    &kp C         &kp V        &kp B                                                 &kp N         &kp M        &kp COMMA  &mt_sk RALT DOT  &mt_sk RCTRL FSLH  &sk RSHFT  
                                                                                                   &kp C_MUTE           &kp C_PP                                                                                         
