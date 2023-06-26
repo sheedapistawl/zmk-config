@@ -50,7 +50,14 @@
   };
 
   behaviors {
-    lt_qk: layer_toggle_quick {
+        tab_esc: tab_esc_td {
+        compatible = "zmk,behavior-tap-dance";
+        label = "TAB_ESC_TAP_DANCE";
+        #binding-cells = <0>;
+        tapping-term-ms = <200>;
+        bindings = <&kp TAB>, <&kp ESC>;
+    };
+  lt_qk: layer_toggle_quick {
       compatible = "zmk,behavior-hold-tap";
       label = "LAYER_TOGGLE_QUICK";
       #binding-cells = <2>;
@@ -85,11 +92,11 @@
       label = "DEFAULT";
       bindings = <
       // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮                                      ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬────────────╮
-             &kp TAB       &kp Q         &kp W         &kp E         &kp R        &kp T                                                   &kp Y         &kp U         &kp I         &kp O        &kp P       &kp BSPC    
+             &tab_esc       &kp Q         &kp W         &kp E         &kp R        &kp T                                                   &kp Y         &kp U         &kp I         &kp O        &kp P       &kp BSPC    
       // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤                                      ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼────────────┤
            &kp LSHIFT       &kp A          &kp S         &kp D         &kp F        &kp G                                                 &kp H         &kp J         &kp K         &kp L        &kp SEMI    &kp SQT    
       // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤  ╭─────────────╮     ╭─────────────╮ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼────────────┤
-           &sk LCTRL     &kp Z             &kp X         &kp C         &kp V        &kp B                                                 &kp N         &kp M       &kp COMMA      &kp DOT      &kp FSLH    &kp DEL  
+           &sk LCTRL      &kp Z            &kp X         &kp C         &kp V        &kp B                                                 &kp N         &kp M       &kp COMMA      &kp DOT      &kp FSLH    &kp DEL  
                                                                                                   &kp C_MUTE           &kp C_PP                                                                                         
       // ╰─────────────┴─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤  ╰─────────────╯     ╰─────────────╯ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┴────────────╯
                                          &kp LALT      &lt SYM      &kp ENTER                                                                        &kp RET       &lt SYM      &kp RGUI
