@@ -99,7 +99,7 @@
            &kp LCTRL      &kp Z            &kp X         &kp C         &kp V        &kp B                                                 &kp N         &kp M       &kp COMMA      &kp DOT      &kp FSLH    &kp DEL  
                                                                                                   &kp C_MUTE           &kp C_PP                                                                                         
       // ╰─────────────┴─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤  ╰─────────────╯     ╰─────────────╯ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┴────────────╯
-                                         &kp LALT      &mo SYM      &kp ENTER      &kp PIPE                                           &kp K_APP        &kp SPACE    &mo NUM      &kp RGUI
+                                        &kp PIPE      &kp LALT      &mo SYM      &kp ENTER                                               &kp SPACE    &mo NUM      &kp RGUI      &kp K_APP
       //                             ╰─────────────┴─────────────┴─────────────┴─────────────╯                                      ╰─────────────┴─────────────┴─────────────┴─────────────╯
       >;
       sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp C_VOL_UP C_VOL_DN>;
@@ -115,7 +115,7 @@
              &kp LCTRL     &kp F1         &kp F2         &kp F3       &kp F4       &kp F5                                               &kp F6           &kp F7      &kp F8       &kp F9         &kp F10     &kp DEL
                                                                                                     &kp CAPS          &kp LNLCK                                                                                        
       // ╰─────────────┴─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤  ╰─────────────╯     ╰─────────────╯ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┴────────────╯
-                                          &kp LALT          ___    &kp ENTER         &kp LBRC                                             &kp RBRC     &kp SPACE         ___        &kp RGUI        
+                                          &kp LBRC     &kp LALT          ___    &kp ENTER                                                   &kp SPACE         ___        &kp RGUI     &kp RBRC       
       //                             ╰─────────────┴─────────────┴─────────────┴─────────────╯                                      ╰─────────────┴─────────────┴─────────────┴─────────────╯
       >;
       sensor-bindings = <&inc_dec_kp C_NEXT C_PREV &inc_dec_kp F18 F17>;
@@ -131,7 +131,7 @@
            &kp LCTRL       &kp N0        &kp N1       &kp N2          &kp N3     &kp KP_DOT                                            &kp END      &kp LEFT     &kp DOWN        &kp RIGHT    &kp MINUS     &kp DEL  
                                                                                                       ___                ___                                                                                          
       // ╰─────────────┴─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤  ╰─────────────╯     ╰─────────────╯ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┴────────────╯
-                                          &kp LALT          ___    &kp ENTER         &kp LBRC                                             &kp RBRC     &kp SPACE         ___        &kp RGUI    
+                                         &kp LBRC       &kp LALT          ___    &kp ENTER                                              &kp SPACE         ___        &kp RGUI    &kp RBRC
       //                             ╰─────────────┴─────────────┴─────────────┴─────────────╯                                      ╰─────────────┴─────────────┴─────────────┴─────────────╯
       >;
       sensor-bindings = <&inc_dec_kp F15 F14 &inc_dec_kp PG_UP PG_DN>;
