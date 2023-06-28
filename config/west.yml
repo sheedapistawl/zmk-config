@@ -5,7 +5,7 @@ manifest:
   projects:
     - name: zmk
       remote: zmkfirmware
-      revision: mm/experiments
+      revision: mm/zephyr-3.4
       import: app/west.yml
   self:
     path: config
