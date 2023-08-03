@@ -1,11 +1,11 @@
 manifest:
   remotes:
     - name: zmkfirmware
-      url-base: https://github.com/mike1808
+      url-base: https://github.com/zmkfirmware
   projects:
     - name: zmk
       remote: zmkfirmware
-      revision: mm/zephyr-3.4
+      revision: ae8299edb3d638f1332475b1da0fdf40afa43fe4
       import: app/west.yml
   self:
     path: config
