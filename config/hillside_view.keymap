@@ -95,9 +95,9 @@
            &kp LSHIFT       &kp A          &kp S         &kp D         &kp F        &kp G                                                 &kp H         &kp J         &kp K         &kp L        &kp SEMI    &kp SQT    
       // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤  ╭─────────────╮     ╭─────────────╮ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼────────────┤
            &kp LCTRL      &kp Z            &kp X         &kp C         &kp V        &kp B                                                 &kp N         &kp M       &kp COMMA      &kp DOT      &kp FSLH    &kp DEL  
-                                                                                                  &kp C_MUTE           &kp C_PP                                                                                         
+                                                                                                  &kp PIPE           &kp C_PP                                                                                         
       // ╰─────────────┴─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤  ╰─────────────╯     ╰─────────────╯ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┴────────────╯
-                                        &kp PIPE      &kp LALT      &mo SYM      &kp ENTER                                               &kp SPACE    &mo NUM      &kp RGUI      &kp K_APP
+                                        &kp LCTRL      &kp LALT      &mo SYM      &kp ENTER                                               &kp SPACE    &mo NUM      &kp RGUI      &kp K_APP
       //                             ╰─────────────┴─────────────┴─────────────┴─────────────╯                                      ╰─────────────┴─────────────┴─────────────┴─────────────╯
       >;
       sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp C_VOL_UP C_VOL_DN>;
